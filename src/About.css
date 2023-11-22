@@ -1,0 +1,44 @@
+.accordion-toggle {
+  background-color: var(--blue); /* menggunakan variabel blue */
+  color: #F1EAFF;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-toggle.pink {
+  background-color: var(--pink); /* menggunakan variabel pink */
+}
+
+.card-body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Variabel warna */
+:root {
+  --blue: rgba(0, 0, 255, 0.6);
+  --pink: rgba(255, 192, 203, 0.6);
+}
+
+.about-section h2 {
+  color: #FFC8C8;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 45px; 
+  text-align: center;
+}
+
+.about-section p {
+  color: #F1EAFF;
+  margin-bottom: 20px;
+  font-size: 17px; 
+  text-align: center;
+  line-height: 30px;
+}

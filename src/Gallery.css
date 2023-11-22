@@ -1,0 +1,36 @@
+/* Gallery.css */
+
+.gallery-container {
+  max-width: 1500px;
+  margin: 0 auto; /* Menengahkan container */
+  padding-left: 50px;
+  background: linear-gradient(50deg, #FF9999, #444F5A);
+  padding: 25px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-title {
+  color: #FFC8C8;
+  margin-top: 0px;
+  font-size: 45px; 
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.gallery-card {
+  margin-bottom: 30px;
+  overflow: hidden; /* Menyembunyikan bagian yang keluar dari kotak */
+  border-radius: 8px; /* Memberikan sudut membulat pada kartu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-card img {
+  width: 100%; /* Gambar akan mengisi lebar 100% kotak */
+  height: 100%; /* Gambar akan mengisi tinggi 100% kotak */
+  object-fit: cover; /* Memotong gambar untuk membuatnya persegi */
+}
+
+.gallery-card:hover {
+  transform: scale(1.05);
+}
