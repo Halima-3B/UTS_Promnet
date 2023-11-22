@@ -1,0 +1,73 @@
+.containerrr {
+  max-width: 1500px;
+  margin: 0px 0; /* Membuat margin atas dan bawah 0, sementara kiri dan kanan otomatis */
+  padding: 25px 375px 50px; /* Atur padding secara langsung */
+  background: linear-gradient(50deg, #FF9999, #444F5A);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 45px; 
+  color: #FFC8C8;
+}
+
+.contact-section p {
+  color: #F1EAFF;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #F1EAFF;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn-primary {
+  color: #444F5A;
+  background-color: #F1EAFF;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Comic Sans MS', cursive;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #f99dcb;
+}
+
+/* Tambahkan styling untuk menempatkan kotak input di bawah teks label */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-size: 14px; /* Atur ukuran font sesuai keinginan Anda */
+  padding: 5px; /* Atur ruang di sekitar teks input */
+}
